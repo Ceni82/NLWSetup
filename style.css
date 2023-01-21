@@ -125,12 +125,15 @@ footer {
   
 }
 
-@media (max-width: 480px){
+@media (max-width: 570px){
   button div {
     display: none;
     
   }
-  .logo {
-    width: 50%;
-  }
+  header{
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+
+}
 }
