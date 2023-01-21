@@ -108,6 +108,22 @@ input:checked {
   border: 2px solid #A78BFA;
 }
 
+.legend {
+  font-family: 'Inter';
+ 
+  font-size: 16px;
+  line-height: 125%;
+  padding: 52px;
+}
+.legend h2{
+  padding-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content:space-around;
+  
+}
 
 @media (max-width: 570px){
   button div {
