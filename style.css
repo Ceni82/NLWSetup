@@ -125,10 +125,10 @@ input:checked {
 
 }
 
-footer {
-  display: flex;
-  justify-content:flex-end;
-  
+.anya {
+  position: fixed;
+  bottom:0;
+  right: 0;
 }
 
 @media (max-width: 570px){
@@ -140,4 +140,9 @@ footer {
     width: 70%;
   }
 
+  .anya {
+    position:none;
+    align-items: center;
+    width: 40%;
+  }
 }
